@@ -6,5 +6,9 @@ export default defineConfig({
   plugins: [vue()],
   server:{
     host:'0.0.0.0'
-  }
+  },
+  build:{
+    outDir:'docs'
+  },
+  publicDir:'https://MissWhale.github.io/vite-project-practice'
 })
